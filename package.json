@@ -1,0 +1,47 @@
+{
+  "name": "@mcpx-digital/i18n-keys",
+  "version": "0.1.0",
+  "description": "MCP server to compare locale JSON/YAML files for missing/extra keys, empty translations, with flat and nested key support. Local files only.",
+  "type": "module",
+  "bin": {
+    "i18n-keys-mcp": "./index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "node --test test/*.test.js"
+  },
+  "files": [
+    "index.js",
+    "lib.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "yaml": "^2.5.0"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "i18n",
+    "l10n",
+    "localization",
+    "mcpx"
+  ],
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheoryofShadows/i18n-keys-mcp.git"
+  },
+  "homepage": "https://github.com/TheoryofShadows/i18n-keys-mcp#readme",
+  "author": "TheoryofShadows",
+  "bugs": {
+    "url": "https://github.com/TheoryofShadows/i18n-keys-mcp/issues"
+  }
+}
